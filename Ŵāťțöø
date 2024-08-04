@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Wattoo's Empire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: black;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            color: gold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+        }
+        .about, .projects, .contact {
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mr. Wattoo's Empire</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello, I am Mr. Wattoo. My goal is to become the richest man on earth, and until I achieve this, I will keep my identity hidden. I plan to start various businesses under the names such as Wattoo 31 for automotive, WATTOO & CO for tobacco and alcohol, and Wattoo Weapons for the weapon industry. Eventually, I aim to establish an empire called Wattoo Territory.</p>
+    </section>
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Wattoo 31:</strong> Automotive industry</li>
+            <li><strong>WATTOO & CO:</strong> Tobacco and alcohol industry</li>
+            <li><strong>Wattoo Weapons:</strong> Weapon industry</li>
+        </ul>
+        <p>In the future, I plan to acquire major social media platforms like Instagram, YouTube, WhatsApp, Meta, Snapchat, and others.</p>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>If you wish to get in touch, please email: <a href="mailto:contact@wattooempire.com" style="color: gold;">contact@wattooempire.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Mr. Wattoo's Empire. All rights reserved.</p>
+    </footer>
+</body>
+</html>
